@@ -13,7 +13,7 @@ font-awesome.min.css">
 <body>
     <!-- Navbar (sit on top) -->
     <div class="m1-top">
-        <div class="m1-bar" id="myNavbar">
+        <div class="m1-bar m1-white" id="myNavbar">
             <a class="m1-bar-item m1-button m1-hover-black m1-hide-medium m1-hide-large m1-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
@@ -60,17 +60,17 @@ font-awesome.min.css">
             </div>
         </div>
         <p class="m1-large m1-center m1-padding-16">Im really good at:</p>
-        <p class="m1-wide"><i class="fa fa-camera"></i>Photography</p>
+        <p class="m1-wide"><i class="fa fa-code"></i>Web Development</p>
         <div class="m1-light-grey">
             <div class="m1-container m1-padding-small m1-dark-grey m1-center" style="width:90%">90%</div>
         </div>
         <p class="m1-wide"><i class="fa fa-laptop"></i>Web Design</p>
         <div class="m1-light-grey">
-            <div class="m1-container m1-padding-small m1-dark-grey m1-center" style="width:85%">85%</div>
+            <div class="m1-container m1-padding-small m1-dark-grey m1-center" style="width:65%">65%</div>
         </div>
         <p class="m1-wide"><i class="fa fa-photo"></i>Photoshop</p>
         <div class="m1-light-grey">
-            <div class="m1-container m1-padding-small m1-dark-grey m1-center" style="width:75%">75%</div>
+            <div class="m1-container m1-padding-small m1-dark-grey m1-center" style="width:60%">60%</div>
         </div>
     </div>
     <div class="m1-row m1-center m1-dark-grey m1-padding-16">
@@ -229,12 +229,7 @@ font-awesome.min.css">
     };
 
     function myFunction() {
-        var navbar = document.getElementById("myNavbar");
-        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            navbar.className = "m1-bar" + " m1-card-2" + " m1-animate-top" + " m1-white";
-        } else {
-            navbar.className = navbar.className.replace(" m1-card-2 m1-animate-top m1-white", "");
-        }
+        
     }
 
     // Used to toggle the menu on small screens when clicking on the menu button
