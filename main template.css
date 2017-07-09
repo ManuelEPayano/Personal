@@ -153,7 +153,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .m1-cell-row{display:table;width:100%}.m1-cell{display:table-cell}
 .m1-cell-top{vertical-align:top}.m1-cell-middle{vertical-align:middle}.m1-cell-bottom{vertical-align:bottom}
 .m1-hide{display:none!important}.m1-show-block,.m1-show{display:block!important}.m1-show-inline-block{display:inline-block!important}
-@media (max-width:717px){.m1-modal-content{margin:0 10px;width:auto!important}.m1-modal{padding-top:30px}
+@media (max-width:717px){.m1-modal-content{margin:0 10px;width:auto!important}.m1-modal{padding-top:30px} #googleMap{width:auto!important} #gform{width:260px} #gFormmessage{width:276px; height:200px}}
 .m1-dropdown-hover.m1-mobile .m1-dropdown-content,.m1-dropdown-click.m1-mobile .m1-dropdown-content{position:relative}  
 .m1-hide-small{display:none!important}.m1-mobile{display:block;width:100%!important}.m1-bar-item.m1-mobile,.m1-dropdown-hover.m1-mobile,.m1-dropdown-click.m1-mobile{text-align:center}
 .m1-dropdown-hover.m1-mobile,.m1-dropdown-hover.m1-mobile .m1-btn,.m1-dropdown-hover.m1-mobile .m1-button,.m1-dropdown-click.m1-mobile,.m1-dropdown-click.m1-mobile .m1-btn,.m1-dropdown-click.m1-mobile .m1-button{width:100%}}
