@@ -43,8 +43,8 @@ fieldset{
 /* Second image (Portfolio) */
 
 .bgimg-2 {
-    background-image: url("IMG/Design1.jpeg");
-    min-height: 400px;
+    background-image: url("IMG/Design1.jpg");
+    min-height: 100%;
 }
 
 
