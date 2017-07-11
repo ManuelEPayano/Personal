@@ -74,3 +74,46 @@ function loaded() {
   form.addEventListener("submit", handleFormSubmit, false);
 };
 document.addEventListener('DOMContentLoaded', loaded, false);
+
+// Calls the google map
+function myMap() {
+            myCenter = new google.maps.LatLng(40.691644,-73.9043182);
+            var mapOptions = {
+                center: myCenter,
+                zoom: 14,
+                scrollwheel: false,
+                draggable: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+            });
+            marker.setMap(map);
+        }
+//function to show the hidden movile menu
+function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("m1-show") == -1) {
+                x.className += " m1-show";
+            } else {
+                x.className = x.className.replace(" m1-show", "");
+            }
+        }
+//Displays the modal image on click
+function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+// Change style of navbar on scroll
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        function myFunction() {
+            
+        }
