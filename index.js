@@ -1,5 +1,5 @@
 // Slide Show Start
-
+//I nbeen forgetting to code smh
 // Slide Show Ends
 
 function validEmail(email) { // see:
